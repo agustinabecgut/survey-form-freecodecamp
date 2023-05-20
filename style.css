@@ -1,0 +1,60 @@
+body {
+    background: url(assets/background.jpg) center;
+    margin: 0;
+    width: 100%;    
+}
+
+.container {
+    background-color: rgba(165, 42, 42, 0.568);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    padding: 3%;
+    width: 40%;
+}
+
+.header-title, .header-description {
+    color: #ffffff;
+    text-align: center;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0;
+}
+
+.label {
+    color: #ffffff;
+    font-size: large;
+    margin: 1% 0
+}
+
+.input, #dropdown, .input-textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-size: large;
+}
+
+.input-name {
+    color: #ffffff;
+    font-size: medium;
+    margin: 0.5% 0;
+}
+
+.submit-button {
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: large;
+    margin: 1% auto;
+    padding: 2%;
+    width: 15%
+}

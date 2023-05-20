@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolci Parole Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="header-title">Dolci Parole Questionnaire<h1>
+            <p id="description" class="header-description">Little questionnaire about the services that you would like us to provide</p>
+        </header>
+        <form id="input-box">
+          <div class="input-div">
+            <label id="name-label" for="name" class="label">Name</label>
+            <input id="name" class="input" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-div">
+            <label id="email-label" for="email" class="label">E-mail</label>
+            <input id="email" class="input" type="email" placeholder="Enter your e-mail" required>
+          </div>
+          <div class="input-div">
+            <label id="number-label" for="number" class="label">Age</label>
+            <input id="number" class="input" type="number" min="10" max="99" placeholder="Your age" required>
+          </div>
+          <div class="input-div">
+            <p class="paragraph">Select the language you would like to learn</p>
+            <select id="dropdown">
+              <option desabled selected value>Select a method</option>
+              <option value="spanish">Virtual</option>
+              <option value="italian">On-site</option>
+            </select>
+          </div>
+          <div class="input-div">
+            <p class="paragraph">Would you pay for a full personalized learning experience?</p>
+            <label class="input-name"><input name="user-opinion" value="definitely" type="radio" class="input-radio" checked>Yes</label>
+            <label class="input-name"><input name="user-opinion" value="definitely" type="radio" class="input-radio">No</label>
+          </div>
+          <div class="input-div">
+            <p class="paragraph">Which languages from the list would you like to learn?</p>
+            <label class="input-name"><input name="prefer" value="spanish" type="checkbox" class="input-checkbox">Spanish</label>
+            <label class="input-name"><input name="prefer" value="italian" type="checkbox" class="input-checkbox">Italian</label>
+            <label class="input-name"><input name="prefer" value="portuguese" type="checkbox" class="input-checkbox">Portuguese</label>
+            <label class="input-name"><input name="prefer" value="french" type="checkbox" class="input-checkbox">French</label>
+            <label class="input-name"><input name="prefer" value="korean" type="checkbox" class="input-checkbox">Korean</label>
+            <label class="input-name"><input name="prefer" value="japanese" type="checkbox" class="input-checkbox">Japanese</label>
+          </div>
+          <div class="input-div">
+            <p class="paragraph">Do you have any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>        
+          </div>
+          <div class="input-div">
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
