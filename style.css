@@ -1,5 +1,6 @@
 body {
     background: url(assets/background.jpg) center;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     width: 100%;    
 }
